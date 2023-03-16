@@ -7,8 +7,6 @@ import org.springframework.stereotype.Service;
 import com.bridgelabz.addressbookapp.dto.UserDTO;
 import com.bridgelabz.addressbookapp.entity.User;
 
-import jakarta.validation.Valid;
-
 @Service
 public interface IAddressBookService {
 	
@@ -18,15 +16,15 @@ public interface IAddressBookService {
 
 	User getUserByEmail(String email);
 
-	User createNewUser(@Valid UserDTO userDTO);
+	User createNewUser(UserDTO userDTO);
 
-	User UpdateUser(int id, @Valid UserDTO userDTO);
+	User UpdateUser(int id, UserDTO userDTO);
 
 	void deleteUserById(int id);
 
-	String createNewUserByToken(@Valid UserDTO userDTO);
+	String createNewUserByToken(UserDTO userDTO);
 
-	User UpdateUser(String token, @Valid UserDTO userDTO);
+	User UpdateUser(String token, UserDTO userDTO);
 
 	User getUserDataByToken(String token);
 
