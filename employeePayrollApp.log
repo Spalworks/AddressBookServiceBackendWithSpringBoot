@@ -28,3 +28,229 @@
 2023-16-03 07:22 [INFO] [RMI TCP Connection(2)-127.0.0.1] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:585] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2023-16-03 07:22 [INFO] [RMI TCP Connection(2)-127.0.0.1] [c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
 2023-16-03 07:22 [INFO] [RMI TCP Connection(2)-127.0.0.1] [c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2023-16-03 08:19 [INFO] [restartedMain] [c.b.a.AddressbookApplication:51] Starting AddressbookApplication using Java 17.0.5 with PID 18888 (D:\AddressbookApplication\target\classes started by SP in D:\AddressbookApplication)
+2023-16-03 08:19 [INFO] [restartedMain] [c.b.a.AddressbookApplication:638] The following 1 profile is active: "dev"
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:208] Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interfaces.
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2023-16-03 08:19 [INFO] [restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+2023-16-03 08:19 [INFO] [restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-16-03 08:19 [INFO] [restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:291] Root WebApplicationContext: initialization completed in 2862 ms
+2023-16-03 08:19 [INFO] [restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-16-03 08:19 [INFO] [restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-16-03 08:19 [INFO] [restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+2023-16-03 08:19 [INFO] [restartedMain] [c.z.h.p.HikariPool:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7653edea
+2023-16-03 08:19 [INFO] [restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+2023-16-03 08:19 [INFO] [restartedMain] [SQL dialect:66] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-16-03 08:19 [INFO] [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 08:19 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-16-03 08:19 [WARN] [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:59] LiveReload server is running on port 35729
+2023-16-03 08:19 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-16-03 08:19 [INFO] [restartedMain] [c.b.a.AddressbookApplication:57] Started AddressbookApplication in 8.983 seconds (process running for 10.622)
+2023-16-03 08:41 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-16-03 08:41 [INFO] [http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+2023-16-03 08:41 [INFO] [http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:554] Completed initialization in 95 ms
+2023-16-03 08:41 [ERROR] [http-nio-8080-exec-2] [o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.mail.MailAuthenticationException: Authentication failed] with root cause
+jakarta.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v8-20020a170902b7c800b001994fc55998sm4309258plz.217 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:979)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:890)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:794)
+	at jakarta.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.bridgelabz.addressbookapp.util.EmailService.sendEmail(EmailService.java:19)
+	at com.bridgelabz.addressbookapp.service.AddressBookService.createNewUserByToken(AddressBookService.java:86)
+	at com.bridgelabz.addressbookapp.controller.AddressBookController.createUserByToken(AddressBookController.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-16-03 08:43 [INFO] [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-16-03 08:43 [INFO] [Thread-5] [o.a.c.c.StandardService:173] Stopping service [Tomcat]
+2023-16-03 08:43 [INFO] [Thread-5] [o.a.c.c.C.[.[.[/]:173] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-16-03 08:43 [INFO] [Thread-5] [o.s.o.j.LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 08:43 [INFO] [Thread-5] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:585] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-16-03 08:43 [INFO] [Thread-5] [c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2023-16-03 08:43 [INFO] [Thread-5] [c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2023-16-03 08:43 [INFO] [restartedMain] [c.b.a.AddressbookApplication:51] Starting AddressbookApplication using Java 17.0.5 with PID 18888 (D:\AddressbookApplication\target\classes started by SP in D:\AddressbookApplication)
+2023-16-03 08:43 [INFO] [restartedMain] [c.b.a.AddressbookApplication:638] The following 1 profile is active: "dev"
+2023-16-03 08:43 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-16-03 08:43 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:208] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-16-03 08:43 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2023-16-03 08:43 [INFO] [restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+2023-16-03 08:43 [INFO] [restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-16-03 08:43 [INFO] [restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+2023-16-03 08:43 [INFO] [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:291] Root WebApplicationContext: initialization completed in 942 ms
+2023-16-03 08:43 [INFO] [restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-16-03 08:43 [INFO] [restartedMain] [c.z.h.HikariDataSource:110] HikariPool-2 - Starting...
+2023-16-03 08:43 [INFO] [restartedMain] [c.z.h.p.HikariPool:565] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1360950d
+2023-16-03 08:43 [INFO] [restartedMain] [c.z.h.HikariDataSource:123] HikariPool-2 - Start completed.
+2023-16-03 08:43 [INFO] [restartedMain] [SQL dialect:66] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-16-03 08:43 [INFO] [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-16-03 08:43 [INFO] [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 08:43 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-16-03 08:43 [WARN] [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-16-03 08:43 [INFO] [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:59] LiveReload server is running on port 35729
+2023-16-03 08:43 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-16-03 08:43 [INFO] [restartedMain] [c.b.a.AddressbookApplication:57] Started AddressbookApplication in 1.98 seconds (process running for 1437.949)
+2023-16-03 08:43 [INFO] [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+2023-16-03 08:43 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-16-03 08:43 [INFO] [http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+2023-16-03 08:43 [INFO] [http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:554] Completed initialization in 3 ms
+2023-16-03 08:44 [INFO] [RMI TCP Connection(27)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159] Application shutdown requested.
+2023-16-03 08:44 [INFO] [RMI TCP Connection(27)-127.0.0.1] [o.a.c.c.StandardService:173] Stopping service [Tomcat]
+2023-16-03 08:44 [INFO] [RMI TCP Connection(27)-127.0.0.1] [o.a.c.c.C.[.[.[/]:173] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-16-03 08:44 [INFO] [RMI TCP Connection(27)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 08:44 [INFO] [RMI TCP Connection(27)-127.0.0.1] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:585] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-16-03 08:44 [INFO] [RMI TCP Connection(27)-127.0.0.1] [c.z.h.HikariDataSource:350] HikariPool-2 - Shutdown initiated...
+2023-16-03 08:44 [INFO] [RMI TCP Connection(27)-127.0.0.1] [c.z.h.HikariDataSource:352] HikariPool-2 - Shutdown completed.
+2023-16-03 08:51 [INFO] [restartedMain] [c.b.a.AddressbookApplication:51] Starting AddressbookApplication using Java 17.0.5 with PID 1524 (D:\AddressbookApplication\target\classes started by SP in D:\AddressbookApplication)
+2023-16-03 08:51 [INFO] [restartedMain] [c.b.a.AddressbookApplication:638] The following 1 profile is active: "dev"
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:208] Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interfaces.
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2023-16-03 08:51 [INFO] [restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+2023-16-03 08:51 [INFO] [restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-16-03 08:51 [INFO] [restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:291] Root WebApplicationContext: initialization completed in 2438 ms
+2023-16-03 08:51 [INFO] [restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-16-03 08:51 [INFO] [restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-16-03 08:51 [INFO] [restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+2023-16-03 08:51 [INFO] [restartedMain] [c.z.h.p.HikariPool:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4951543d
+2023-16-03 08:51 [INFO] [restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+2023-16-03 08:51 [INFO] [restartedMain] [SQL dialect:66] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-16-03 08:51 [INFO] [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 08:51 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-16-03 08:51 [WARN] [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:59] LiveReload server is running on port 35729
+2023-16-03 08:51 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-16-03 08:51 [INFO] [restartedMain] [c.b.a.AddressbookApplication:57] Started AddressbookApplication in 8.57 seconds (process running for 10.639)
+2023-16-03 08:52 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-16-03 08:52 [INFO] [http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+2023-16-03 08:52 [INFO] [http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:554] Completed initialization in 11 ms
+2023-16-03 08:56 [INFO] [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-16-03 08:56 [INFO] [Thread-5] [o.a.c.c.StandardService:173] Stopping service [Tomcat]
+2023-16-03 08:56 [INFO] [Thread-5] [o.a.c.c.C.[.[.[/]:173] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-16-03 08:56 [INFO] [Thread-5] [o.s.o.j.LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 08:56 [INFO] [Thread-5] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:585] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-16-03 08:56 [INFO] [Thread-5] [c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2023-16-03 08:56 [INFO] [Thread-5] [c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2023-16-03 08:56 [INFO] [restartedMain] [c.b.a.AddressbookApplication:51] Starting AddressbookApplication using Java 17.0.5 with PID 1524 (D:\AddressbookApplication\target\classes started by SP in D:\AddressbookApplication)
+2023-16-03 08:56 [INFO] [restartedMain] [c.b.a.AddressbookApplication:638] The following 1 profile is active: "dev"
+2023-16-03 08:56 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-16-03 08:56 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:208] Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2023-16-03 08:56 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2023-16-03 08:56 [INFO] [restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+2023-16-03 08:56 [INFO] [restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-16-03 08:56 [INFO] [restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+2023-16-03 08:56 [INFO] [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:291] Root WebApplicationContext: initialization completed in 1066 ms
+2023-16-03 08:56 [INFO] [restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-16-03 08:56 [INFO] [restartedMain] [c.z.h.HikariDataSource:110] HikariPool-2 - Starting...
+2023-16-03 08:56 [INFO] [restartedMain] [c.z.h.p.HikariPool:565] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4de90988
+2023-16-03 08:56 [INFO] [restartedMain] [c.z.h.HikariDataSource:123] HikariPool-2 - Start completed.
+2023-16-03 08:56 [INFO] [restartedMain] [SQL dialect:66] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-16-03 08:56 [INFO] [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-16-03 08:56 [INFO] [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 08:56 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-16-03 08:56 [WARN] [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-16-03 08:56 [INFO] [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:59] LiveReload server is running on port 35729
+2023-16-03 08:56 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-16-03 08:56 [INFO] [restartedMain] [c.b.a.AddressbookApplication:57] Started AddressbookApplication in 2.13 seconds (process running for 338.88)
+2023-16-03 08:56 [INFO] [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+2023-16-03 08:58 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-16-03 08:58 [INFO] [http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+2023-16-03 08:58 [INFO] [http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:554] Completed initialization in 3 ms
+2023-16-03 08:58 [WARN] [http-nio-8080-exec-2] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:207] Resolved [com.bridgelabz.addressbookapp.exception.AddressBookException: User not found!!!]
+2023-16-03 09:12 [INFO] [File Watcher] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-16-03 09:12 [INFO] [Thread-7] [o.a.c.c.StandardService:173] Stopping service [Tomcat]
+2023-16-03 09:12 [INFO] [Thread-7] [o.a.c.c.C.[.[.[/]:173] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-16-03 09:12 [INFO] [Thread-7] [o.s.o.j.LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 09:12 [INFO] [Thread-7] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:585] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-16-03 09:12 [INFO] [Thread-7] [c.z.h.HikariDataSource:350] HikariPool-2 - Shutdown initiated...
+2023-16-03 09:12 [INFO] [Thread-7] [c.z.h.HikariDataSource:352] HikariPool-2 - Shutdown completed.
+2023-16-03 09:12 [INFO] [restartedMain] [c.b.a.AddressbookApplication:51] Starting AddressbookApplication using Java 17.0.5 with PID 1524 (D:\AddressbookApplication\target\classes started by SP in D:\AddressbookApplication)
+2023-16-03 09:12 [INFO] [restartedMain] [c.b.a.AddressbookApplication:638] The following 1 profile is active: "dev"
+2023-16-03 09:12 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-16-03 09:12 [INFO] [restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:208] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2023-16-03 09:12 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2023-16-03 09:12 [INFO] [restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+2023-16-03 09:12 [INFO] [restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-16-03 09:12 [INFO] [restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+2023-16-03 09:12 [INFO] [restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:291] Root WebApplicationContext: initialization completed in 1093 ms
+2023-16-03 09:12 [INFO] [restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-16-03 09:12 [INFO] [restartedMain] [c.z.h.HikariDataSource:110] HikariPool-3 - Starting...
+2023-16-03 09:12 [INFO] [restartedMain] [c.z.h.p.HikariPool:565] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14a85d39
+2023-16-03 09:12 [INFO] [restartedMain] [c.z.h.HikariDataSource:123] HikariPool-3 - Start completed.
+2023-16-03 09:12 [INFO] [restartedMain] [SQL dialect:66] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-16-03 09:12 [INFO] [restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-16-03 09:12 [INFO] [restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 09:12 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:231] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-16-03 09:12 [WARN] [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:101] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-16-03 09:12 [INFO] [restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:59] LiveReload server is running on port 35729
+2023-16-03 09:12 [INFO] [restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2023-16-03 09:12 [INFO] [restartedMain] [c.b.a.AddressbookApplication:57] Started AddressbookApplication in 2.633 seconds (process running for 1285.467)
+2023-16-03 09:12 [INFO] [restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+2023-16-03 09:16 [INFO] [RMI TCP Connection(29)-127.0.0.1] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159] Application shutdown requested.
+2023-16-03 09:16 [INFO] [RMI TCP Connection(29)-127.0.0.1] [o.a.c.c.StandardService:173] Stopping service [Tomcat]
+2023-16-03 09:16 [INFO] [RMI TCP Connection(29)-127.0.0.1] [o.s.o.j.LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-16-03 09:16 [INFO] [RMI TCP Connection(29)-127.0.0.1] [o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl:585] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-16-03 09:16 [INFO] [RMI TCP Connection(29)-127.0.0.1] [c.z.h.HikariDataSource:350] HikariPool-3 - Shutdown initiated...
+2023-16-03 09:16 [INFO] [RMI TCP Connection(29)-127.0.0.1] [c.z.h.HikariDataSource:352] HikariPool-3 - Shutdown completed.
